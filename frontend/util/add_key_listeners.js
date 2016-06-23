@@ -9,7 +9,8 @@ const KEYNOTES = {
   70: "F5",
   74: "G5",
   75: "A5",
-  76: "C6"
+  76: "B5",
+  186: "C6"
 };
 
 module.exports = function () {

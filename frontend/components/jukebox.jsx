@@ -24,7 +24,7 @@ const Jukebox = React.createClass({
         <ul className="jukebox-tracks">
           {
           this.state.tracks.map( (track, i) => {
-            return <TrackPlayer track={track} key={i}/>;
+            return <TrackPlayer track={track} key={i} id={i}/>;
           })
           }
         </ul>

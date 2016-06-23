@@ -14,7 +14,7 @@ const Organ = React.createClass({
 
   render: function() {
     return(
-      <div>
+      <div className="main">
         <ul className="organ">
           {Object.keys(TONES).map( noteName => {
             return <NoteKey noteName={noteName} id={noteName} key={noteName}/>;

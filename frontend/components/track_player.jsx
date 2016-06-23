@@ -13,9 +13,9 @@ const TrackPlayer = React.createClass({
   render() {
     return (
       <li>
-        {this.props.track.name}
-        <button onClick={this.playTrack} class="track-play">Play</button>
-        <button onClick={this.deleteTrack} class="track-delete">Delete</button>
+        Song {this.props.id}
+        <button onClick={this.playTrack} className="track-play">Play</button>
+        <button onClick={this.deleteTrack} className="track-delete">Delete</button>
       </li>
     );
   }
