@@ -1,0 +1,75 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.organ {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  width: 400px;
+}
+
+.keynote {
+  float: left;
+  border: 1px solid gray;
+  height: 200px;
+  width: 12.5%;
+  text-align: center;
+  line-height: 200px;
+  align-items: center;
+}
+
+.recorder {
+  display: flex;
+  justify-content: space-around;
+  background: #DDD;
+  width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+.jukebox {
+  display: flex;
+  align-items: center;
+  // text-align: center;
+}
+
+.C5 {
+  background-color: #B8F7D4;
+}
+
+.D5 {
+  background-color: #FFA5A5;
+}
+
+.E5 {
+  background-color: #FFFFC2;
+}
+
+.F5 {
+  background-color: #C8E7ED;
+}
+
+.G5 {
+  background-color: #BFCFFF;
+}
+
+.A5 {
+  background-color: #6FE7DB;
+}
+
+.B5 {
+  background-color: #835AF1;
+}
+
+.C6 {
+  background-color: #7FA6EE;
+}
+
+.playing {
+  background-color: #CCC;
+}
